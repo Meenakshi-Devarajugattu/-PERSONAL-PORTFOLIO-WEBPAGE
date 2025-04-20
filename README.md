@@ -13,3 +13,7 @@
 *MENTOR* : NEELA SANTHOSH KUMAR
 
 ##The Personal Portfolio Webpage is a single-page responsive website designed to showcase a developer’s professional profile, projects, skills, and contact information. It acts as an online resume, giving potential employers, clients, or collaborators a quick and clear overview of your work. Built using only HTML and CSS, this project focuses on design, layout, and usability without relying on complex scripting or backend integration.
+
+#OUTPUT
+
+![Image](https://github.com/user-attachments/assets/587c53b3-1c06-45da-a158-fb47cdb77fc9)
