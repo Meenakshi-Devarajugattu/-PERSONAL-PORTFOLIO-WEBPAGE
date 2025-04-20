@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      background: #333;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    #about {
+      background: #f4f4f4;
+    }
+    #projects {
+      background: #e2e2e2;
+    }
+    #contact {
+      background: #f4f4f4;
+    }
+    .project {
+      background: white;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      background: #333;
+      color: white;
+      padding: 1rem;
+    }
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>John</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a passionate web developer with experience in HTML, CSS, and JavaScript. I love building responsive and user-friendly websites.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Quiz App</h3>
+      <p>A responsive quiz application that allows users to test their knowledge and receive instant feedback.</p>
+    </div>
+    <div class="project">
+      <h3>Chat App</h3>
+      <p>A real-time chat application using WebSockets and JavaScript, providing instant communication between users.</p>
+    </div>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>A personal portfolio to showcase my web development projects and skills.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: john@example.com</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/john" target="_blank">linkedin.com/in/johndoe</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 John. All rights reserved.</p>
+  </footer>
+</body>
+</html>
